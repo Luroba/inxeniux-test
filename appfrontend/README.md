@@ -1,16 +1,41 @@
-# appfrontend
+# Test Desarrollador Jr
 
-A new Flutter project.
+Guía de instalación de proyecto CRUD por Luis Enrique Romero Barbosa
 
-## Getting Started
+##  CRUD
 
-This project is a starting point for a Flutter application.
+Ejecutar el siguiente comando en ambas carpetas **backend-api** y **frontend-vue** para instalar node_modules
+```
+$ npm install
+```
 
-A few resources to get you started if this is your first Flutter project:
+### Configurar **backend-api** y BD
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+En la terminal, iniciar sesion en MySQL y ejecutar el código SQL dentro del archivo: (más detalles dentro del archivo)
+```
+db/database.sql
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Verificar **host, user, password** en el directorio:
+```
+src/db.js
+```
+
+**Ejecutar API en servidor 3000**
+```
+$ node src/index.js
+```
+
+### Configurar **frontend-vue**
+
+Ejecutar comando para inicializar proyecto Vue
+```
+$ npm run dev
+```
+
+## SCRIPTS
+
+Ejecutar scripts con comando node:
+```
+$ node <nombre del script>
+```
